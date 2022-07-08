@@ -1,0 +1,26 @@
+ /* it is component based css file created  */
+.m_auto{
+    margin: auto;
+}
+.submitbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 280px;
+    height: 48px;
+    background-color: #953389;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.12), inset 0px -4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    color: #ffffff;
+    border: 0;
+}
+
+.submitbtn:hover{
+    background-color: #ffffff;
+    border: 1px solid #953389;
+    border-radius: 16px;
+    color: #953389;
+    box-shadow: none;
+}

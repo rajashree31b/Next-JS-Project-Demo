@@ -1,0 +1,131 @@
+.ColorPalette{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.ColorPalette__listWrapper {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0 15px;
+}
+
+.ColorPalette__PrimarylistBox, .ColorPalette__TextListBox{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ColorPalette__listContent {
+    padding: 8px 0 0;
+    color: #333;
+    text-align: center;
+}
+
+.ColorPalette__listContent p{
+    margin: 0;
+    font-size: 12px;
+    color: #6E2665;
+    font-weight: 500;
+}
+.ColorPalette__headline {
+    width: 100%;
+    padding: 0 15px;
+}
+.ColorPalette__headline h6{
+    color: #6E2665;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    text-decoration: underline;
+}
+
+
+/* primary colors */
+.Primary_0 {
+    background-color: #6E2665;
+    color: #ffffff;
+}
+.Primary_1 {
+    background-color: #953389;
+    /* color: #ffffff; */
+}
+
+.Primary_2 {
+    background-color: #B758AB;
+    /* color: #ffffff; */
+}
+
+.Primary_3 {
+    background-color: #FFD6FA;
+    /* color: #ffffff; */
+}
+
+.Primary_4 {
+    background-color: #FAECF9;
+    /* color: #ffffff; */
+}
+
+.Primary_5 {
+    background-color: #FCF8FC;
+    /* color: #ffffff; */
+}
+
+/* Text colors */
+.Dark{
+    background-color: #372741;
+}
+
+.MediumDark{
+    background-color: #503D5C;
+}
+
+.Medium{
+    background-color: #836F90;
+}
+
+.LightMedium{
+    background-color: #CCC6CF;
+}
+
+.Light{
+    background-color: #F3F1F3;
+}
+
+/* Secondary list */
+.Secondary_1{
+    background-color: #FFAD37;
+}
+
+.Secondary_2{
+    background-color: #D3D7F9;
+}
+
+/* Accents List */
+.Pink{
+    background-color: #FAECF9;
+}
+.Green{
+    background-color: #E4F2E5;
+}
+.Cream{
+    background-color: #FDEBD4;
+}
+.Lilac{
+    background-color: #EAE6FC;
+}
+
+/* Utility List */
+.Success{
+    background-color: #4BB543;
+}

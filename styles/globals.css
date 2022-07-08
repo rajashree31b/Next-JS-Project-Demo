@@ -1,0 +1,194 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* menu bar css */
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+ul.menu_bar {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  position: absolute;
+  left: auto;
+  right: auto;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+ul.menu_bar li {
+  color: #ffffff;
+  padding: 0 10px;
+  text-align: center;
+  border-right: 1px solid #ffffff;
+  font-family: 'Baloo 2';
+  font-weight: 400;
+}
+
+ul.menu_bar li a{
+  font-family: 'Baloo 2';
+  font-weight: 400;
+}
+
+ul.menu_bar li:hover{
+  color: #cccccc;
+}
+ul.menu_bar li:last-child {
+  border-right: 0;
+}
+/* menu bar css end */
+
+/* my app css start */
+body{
+  color: #333;
+  font-family: 'Baloo 2';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* common css */
+
+.c_container{
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.c_row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.m_auto{
+  margin: auto;
+}
+.mb_5{
+  margin-bottom: 30px;
+}
+.mt_5{
+  margin-top: 30px;
+}
+
+h1{
+  font-family: 'Baloo 2';
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  height: 50px;
+}
+h2{
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  height: 40px;
+}
+h3{
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  height: 40px;
+}
+h4{
+  font-family: 'Baloo 2';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  height: 40px;
+}
+.textcenter{
+  text-align: center;
+}
+
+.w_100{
+  width: 100%;
+}
+
+.body1{
+  font-family: 'Baloo 2';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.body2{
+  font-family: 'Baloo 2';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.display_text1{
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 103px;
+  color: #000000;
+}
+
+.display_text2{
+  font-family: 'Baloo 2';
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 90px;
+  color: #000000;
+}
+
+.button{
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+}
+
+.small{
+  font-family: 'Baloo 2';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.indi_msgs{
+  font-family: 'Baloo 2';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.Primary_1 {
+  color: var(--primary-1);
+}
+/* common css end */
+
+/* my app css end here */
